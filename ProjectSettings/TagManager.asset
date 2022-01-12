@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Obstacle
+  - MachineButton
+  - PushMachine
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - playerLayer
+  - playerCenter
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 1140749413
+    locked: 0
+  - name: attract range
+    uniqueID: 2580775689
+    locked: 0
+  - name: line
+    uniqueID: 671324703
+    locked: 0
+  - name: lineFilter
+    uniqueID: 604862921
+    locked: 0
+  - name: Ground
+    uniqueID: 4260460387
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3611434143
+    locked: 0

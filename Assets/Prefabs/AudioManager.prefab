@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2798446144706327625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2798446144706327624}
+  - component: {fileID: 2798446144706327627}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2798446144706327624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798446144706327625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2798446144706327627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2798446144706327625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47c43a136e08f4fe091556aa89443717, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ThemeForMap
+    clip: {fileID: 8300000, guid: f54eb39ee258541d88cd94f12bd4ab62, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ThemeForLevels
+    clip: {fileID: 8300000, guid: 40b7ba4060c334d09bb383236bba5735, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: ClickButton
+    clip: {fileID: 8300000, guid: dd9aece3a981b43b7b2fdf7ff3f9dff3, type: 3}
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - name: ScoreBoard
+    clip: {fileID: 8300000, guid: 19fba116da89b42c183827c51c1f4684, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: 03d119c21961d4b749ce0fb949a78f38, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Diamond
+    clip: {fileID: 8300000, guid: 82f090f5ce580491989baf648e9ea396, type: 3}
+    volume: 0.2
+    loop: 0
+    source: {fileID: 0}
+  - name: SpringBoard
+    clip: {fileID: 8300000, guid: fa36d95bbebbb4c6b8fb7f7a18b70ed7, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Teleport
+    clip: {fileID: 8300000, guid: 572e0b61f5a6043d2ab6d3208de108fd, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Bigger
+    clip: {fileID: 8300000, guid: 5b263c39c3c4e4da688c480af5dd7133, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Smaller
+    clip: {fileID: 8300000, guid: 8ad29df82eedb4e47ac33f1f583ab27a, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Landing
+    clip: {fileID: 8300000, guid: 3d93631a304eb48b29d84524a5791cd5, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: d337011b161374e8080e4aab65215780, type: 3}
+    volume: 0.3
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonSet
+    clip: {fileID: 8300000, guid: 3189898fbce65491e9f222d36383cd8f, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Gravity
+    clip: {fileID: 8300000, guid: bc3027a3033424d00bb714763b2cb2d9, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
